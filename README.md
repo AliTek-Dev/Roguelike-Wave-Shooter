@@ -1,82 +1,33 @@
-# 🎮 Roguelike Wave Shooter
+# Roguelike Wave Shooter
 
-**Willkommen zum *Roguelike Wave Shooter*** – einem actiongeladenen Survival-Spiel, bei dem du **1 Minute** lang gegen immer stärkere Gegnerwellen kämpfst!  
+Ein kleines Lernprojekt, das ich mit Godot entwickelt habe.
 
----
+In dem Spiel überlebt man 60 Sekunden lang in einer Arena gegen immer stärkere Gegner. Besiegte Gegner können Truhen fallen lassen, die Power-ups enthalten.
 
-## 📖 Übersicht
+## Funktionen
 
-In diesem Spiel geht es darum, **Wellen von Gegnern** zu überstehen, **Powerups zu sammeln** und genau **60 Sekunden** zu überleben.  
+* Gegnerwellen
+* Power-ups
+* Sieg nach 60 Sekunden
+* einfache UI und selbst erstellte Pixel-Art-Assets
 
-- 🎯 **Ziel**: Überlebe exakt **1 Minute** in einer Arena voller Feinde.
-- 💥 **Mechanik**: Besiegte Gegner hinterlassen Truhen mit permanenten Powerups.  
-- 🏆 **Gewinnbedingung**: Halte durch, bis der Timer abläuft!  
+## Verwendete Technologien
 
----
+* Godot 4.4.1
+* GDScript
 
-## 🛠️ Voraussetzungen  
+## Projekt starten
 
-Um das Spiel zu nutzen oder weiterzuentwickeln, benötigst du:  
+1. Repository klonen:
 
-- **[Godot Engine 4.4.1](https://godotengine.org/download)**  
-  *(Lade die passende Version herunter.)*  
-- **Grundkenntnisse in GDScript** *(Für Code-Anpassungen)*  
+```bash  
+git clone https://github.com/AliTek-Dev/Roguelike-Wave-Shooter.git  
+```
 
----
+2. Projekt in Godot importieren
 
-## ⚙️ Installation  
+3. Mit F5 starten
 
-1. **Repository klonen**  
+## Hinweis
 
-   ```bash  
-   git clone https://github.com/PhosporoZ/Roguelike-Wave-Shooter.git  
-   ```  
-
-2. **Projekt in Godot importieren**  
-   - Starte Godot 4.4.1.  
-   - Klicke auf *„Importieren“* und wähle den geklonten Projektordner.  
-
-3. **Spiel starten**  
-   - Nach dem Import im Godot-Editor auf *„Spiel ausführen“* klicken oder mit F5 die Main Szene starten.  
-
----
-
-## 🕹️ Spielbeschreibung  
-
-### 🔄 Kernmechaniken  
-
-- **Gegnerwellen**: Werden mit der Zeit immer stärker und schneller.  
-- **Powerups**: Erhöhen z. B. Bewegungsgeschwindigkeit, Angriffsschaden oder Lebensregeneration.  
-- **Arena-Design**: Eine geschlossene Arena, die die Bewegung des Spielers einschränken und ihn mit den Gegnern festhalten.  
-
-### 🎨 Assets & Design  
-
-- **Charaktere/Gegner**: Vollständig handgezeichnete Pixel-Art.  
-- **Umgebung**:  
-  - 🧱 Wände und Dekoration selbst designt.  
-  - 💡 *Hinweis*: Der Boden basiert auf angepassten Vorlagen.  
-- **UI**: Eigenentwickelte Icons und Menü-Hintergründe.  
-
----
-
-## 🤝 Beiträge & Feedback  
-
-Du möchtest mitwirken oder Feedback geben?  
-
-1. **Fehler melden/Feature vorschlagen**:  
-   Öffne ein [Issue](https://github.com/PhosporoZ/Roguelike-Wave-Shooter/issues).  
-2. **Code beitragen**:  
-   - Erstelle einen Fork des Repositories.  
-   - Sende einen **Pull Request** mit deinen Änderungen.  
-
-## 📞 Kontakt  
-
-Bei Fragen oder Anregungen:  
-
-- 📧 **E-Mail**: [ali-tekce@gmx.de](mailto:ali-tekce@gmx.de)  
-- 💻 **GitHub-Profil**: [@PhosporoZ](https://github.com/PhosporoZ)  
-
----
-
-**Viel Spaß beim Überleben!** 🕶️  
-*Geplante Features: Mehr Powerups, Bosskämpfe und Längere Runs – bleibt dran!*  
+Das Projekt habe ich gemacht, um praktische Erfahrung mit Godot und GDScript zu sammeln und dabei grundlegende Spielmechaniken wie Gegnerwellen, Power-ups und UI umzusetzen.
